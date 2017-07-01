@@ -1,0 +1,47 @@
+body{
+  margin:0px;
+  padding:0px;
+  background:#ffffff;
+  color:#111111;
+  font-family:Verdana,Geneva,Lucida,Arial,Helvetica,Sans-Serif;
+}
+a:link{color:#B4445C;}
+a:visited{color:#B4445C;}
+a:active{color:#ff0000;}
+#header{padding:7px 0px 30px 0px;margin:23px 0px 0px 0px;border-top:1px solid #eeeeee;background:#ffffff;color:white;}
+div#mainClm{
+  padding:0px 3% 10px 5%;
+  text-align:justify;
+  background:#ffffff;
+  font:0.9em Verdana,Arial,Sans-Serif;
+}
+div#sideBar{
+  float:right;
+  width:20%;
+  margin:30px;
+  padding:5px;
+  text-align:center;
+  background:#eeeeee;
+  font:0.8em Verdana,Arial,Sans-Serif;
+}
+h1,h2,h3,h4,h5,h6{
+  padding:0px;
+  margin:0px;
+}
+h1{
+  padding-left:3%;
+  padding-top:20px;
+  border-bottom:dotted 1px #000000;
+  border-top:solid 6px #D3EAF2;
+  color: #ff6600;
+  background:#eeeeee;
+  font:bold 340%/0.4em Helvetica Neue Black Condensed,Arial Black,Arial,Sans-Serif;
+  text-transform:lowercase;
+}
+h2{color:#000000;font-weight:normal;font-family:Helvetica Neue Black Condensed,Arial Black,Arial,Sans-Serif;}
+h3{margin:10px 0px 0px 0px;color:#333333;font-size:105%;}
+h4{color:#aa0033;}
+h6{color:#FFC069;font:normal 240% Helvetica Neue Black Condensed,Arial Black,Arial,Sans-Serif;text-align:right;text-transform:lowercase;}
+
+pre,code{color:#999999;}
+strike{color:#999999;}

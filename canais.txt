@@ -1,0 +1,743 @@
+title
+#linkxml
+#linkpage
+#description
+#language
+#creator
+#date
+%
+/Tecnologia/MyFreeBSD
+#http://www.myfreebsd.com.br/backend.php
+#http://www.myfreebsd.com.br
+#MyFreeBSD
+#pt
+#
+#
+%
+/Midia/emarket News
+#http://www.emarket.ppg.br/rss.asp
+#http://www.emarket.ppg.br
+#emarket News
+#pt
+#
+#
+%
+//Terra Notícias
+#terra-noticias.xml
+#http://www.terra.com.br/noticias/ultimas.htm
+#Terra Notícias
+#pt
+#
+#
+%
+/Tecnologia/Itaú Cultural - Cibercultura
+#http://www.itaucultural.org.br/index.cfm?cd_pagina=2158
+#http://www.itaucultural.org.br/
+#Notícias - Cibercultura 
+#pt
+#Instituto Itaú cultural - Itaulab
+#
+%
+/Entretenimento/Drops MTV Brasil
+#http://www2.mtv.com.br/drops/rssify.php
+#http://www2.mtv.com.br/drops/
+#tudo sobre o mundo da música
+#pt
+#MTV Brasil
+#
+%
+/Blogs/Hector Lima
+#http://www.wcc.vccs.edu/services/rssify/rssify.php?url=http://planeta.terra.com.br/arte/hector/blog.html
+#http://planeta.terra.com.br/arte/hector/blog.html
+#Hector Lima
+#pt
+#
+#
+%
+/Cultura/PopScene
+#http://www.wcc.vccs.edu/services/rssify/rssify.php?url=http://planeta.terra.com.br/arte/hector/popscene.html
+#http://popscene.rg3.net/
+#PopScene
+#pt
+#
+#
+%
+/Blogs/Blah Blah Blog
+#http://www.wcc.vccs.edu/services/rssify/rssify.php?url=http://planeta.terra.com.br/arte/flaviadurante/blog.htm
+#http://www.blahblahblog.rg3.net/
+#Blah Blah Blog
+#pt
+#
+#
+%
+/Cultura/AssessorIndie
+#http://www.wcc.vccs.edu/services/rssify/rssify.php?url=http://planeta.terra.com.br/arte/flaviadurante/assessorindie/index.htm
+#http://www.assessorindie.tk
+#AssessorIndie
+#pt
+#
+#
+%
+/Blogs/Rainer Brockerhoff
+#http://www.brockerhoff.net/bb/viewtopic.php?flav=xml
+#http://www.brockerhoff.net/bb/viewtopic.php
+#Rainer Brockerhoff
+#pt
+#
+#
+%
+/Tecnologia/Notícias Linux
+#http://www.noticiaslinux.com.br/rss.php
+#http://www.noticiaslinux.com.br
+#Notícias Linux
+#pt
+#
+#
+%
+/Blogs/Cabeça
+#http://www.bonks.com.br/b2/b2rss.php
+#http://www.bonks.com.br/b2/
+#Cabeça
+#pt
+#
+#
+%
+/Blogs/meltoni.com
+#http://www.meltoni.com/index.rdf
+#http://www.meltoni.com
+#MELTONI.COM
+#pt
+#
+#
+%
+/Tecnologia/Unix Total
+#http://www.unixtotal.com.br/backend.php
+#http://www.unixtotal.com.br
+#Unix Total
+#pt
+#
+#
+%
+/TerceiroSetor/Aprendiz
+#aprendiz.xml
+#http://www.uol.com.br/aprendiz/guiadeempregos/terceiro/noticias/
+#Aprendiz
+#pt
+#
+#
+%
+/Sociedade/Instituto Ethos
+#ethos.xml
+#http://www.ethos.org.br/
+#Instituto Ethos de Responsabilidade Social
+#pt
+#
+#
+%
+/Tecnologia/GNUrias
+#http://www.univates.br/gnurias/backend.php
+#http://www.univates.br/gnurias/
+#GNUrias
+#pt
+#
+#
+%
+/Blogs/EyeSmiles
+#http://www.tableless.com.br/eyesmiles/rss.asp
+#http://www.tableless.com.br/eyesmiles/
+#EyeSmiles
+#pt
+#
+#
+%
+/Blogs/teivan
+#http://minerva.ufpel.tche.br/~jchaponc/rss.php?nome=teivan
+#http://minerva.ufpel.tche.br/~jchaponc/
+#teivan
+#pt
+#
+#
+%
+/Blogs/Blog d'O Apanhador'
+#http://www.oapanhador.net/blog/b2rss.php
+#http://www.oapanhador.net/blog/
+#Blog d'O Apanhador'
+#pt
+#
+#
+%
+/Blogs/Marcelo Cabral :: Diário de Bordo
+#http://wbloggar.com/marcelo/blog/index.rdf
+#http://wbloggar.com/marcelo/blog/
+#Diário de Bordo, de Marcelo Cabral
+#pt
+#
+#
+%
+/Blogs/Dotnet Weblog
+#http://www.raiteki.com/index.rdf
+#http://www.raiteki.com
+#Dotnet Weblog
+#pt
+#
+#
+%
+/Software/w.bloggar
+#http://wbloggar.com/xml-rss.php?blogid=3
+#http://wbloggar.com/brasil/
+#Últimas informações sobre o w.bloggar, interface para publicação em blogs
+#pt
+#
+#
+%
+/Juridico/Expresso da Noticia
+#expressodanoticia.xml
+#http://www.expressodanoticia.com.br
+#Expresso da Noticia
+#pt
+#
+#
+%
+/Tecnologia/Free Code Brasil
+#http://freecode.linuxsecurity.com.br/backend.php
+#http://freecode.linuxsecurity.com.br
+#Free Code Brasil
+#pt
+#
+#
+%
+/Tecnologia/PontoBR
+#http://pontobr.org/backend/pontobr_rdf.php
+#http://pontobr.org/
+#PontoBR
+#pt
+#
+#
+%
+/Tecnologia/MacMania
+#macmania.xml
+#http://www.macmania.com.br
+#MacMania
+#pt
+#
+#
+%
+/Blogs/A Bordo de uma Vida
+#http://magb.dyndns.org/index.xml
+#http://magb.dyndns.org
+#Meninos eu vi, ouvi e li
+#pt
+#
+#
+%
+/Blogs/O Velho
+#http://150.161.125.12/ovelho/rss.php
+#http://www.ovelho.com/
+#O Velho
+#pt
+#
+#
+%
+/Blogs/Sovaco de Cobra
+#http://www.sovacodecobra.com.br/rss.xml
+#http://www.sovacodecobra.com.br
+#Sovaco de Cobra
+#pt
+#
+#
+%
+/Cultura/Hai-Net 
+#hainet.xml
+#http://www.hainet.com.br
+#Hai-Net 
+#pt
+#
+#
+%
+/Tecnologia/Hai-Net Tecnologia
+#hainet.xml?url=tecnologia
+#http://www.hainet.com.br
+#Hai-Net Tecnologia
+#pt
+#
+#
+%
+/Economia/Hai-Net Economia
+#hainet.xml?url=economia
+#http://www.hainet.com.br
+#Hai-Net Economia
+#pt
+#
+#
+%
+/Esporte/Hai-Net Esporte
+#hainet.xml?url=esporte
+#http://www.hainet.com.br
+#Hai-Net Esporte
+#pt
+#
+#
+%
+/Veiculos/Hai-Net Automoveis
+#hainet.xml?url=carro
+#http://www.hainet.com.br
+#Hai-Net Automoveis
+#pt
+#
+#
+%
+/Turismo/Hai-Net Turismo
+#hainet.xml?url=turismo
+#http://www.hainet.com.br
+#Hai-Net Turismo
+#pt
+#
+#
+%
+/Entretenimento/Hai-Net Games
+#hainet.xml?url=games
+#http://www.hainet.com.br
+#Hai-Net Games
+#pt
+#
+#
+%
+/Entretenimento/Hai-Net Karaoke
+#hainet.xml?url=karaoke
+#http://www.hainet.com.br
+#Hai-Net Karaoke
+#pt
+#
+#
+%
+/Entretenimento/Hai-Net Japan Pop
+#hainet.xml?url=jpop
+#http://www.hainet.com.br
+#Hai-Net Japan Pop
+#pt
+#
+#
+%
+//Campo Grande News
+#campogrande.xml
+#http://www.campogrande.com
+#Campo Grande News
+#pt
+#
+#
+%
+//Centro de Mídia Independente
+#cmi.xml
+#http://www.midiaindependente.org/front.php3
+#Centro de Mídia Independente
+#pt
+#
+#
+%
+//Agência Estado
+#agestado.xml
+#http://www.estadao.com.br/agestado/
+#Agência Estado
+#pt
+#
+#
+%
+/Tecnologia/UOL Mundo Digital
+#uol-mundodigital.xml
+#http://www.uol.com.br/mundodigital/ultimas/
+#UOL Mundo Digital
+#pt
+#
+#
+%
+/Tecnologia/Wired News Br
+#wired-news-br.xml
+#http://busca.terra.com.br/wired/index2.html
+#Wired News BR
+#pt
+#
+#
+%
+/Tecnologia/OLinux Notícias
+#olinux.xml
+#http://www.olinux.com.br/news/
+#OLinux Notícias
+#pt
+#
+#
+%
+/Tecnologia/Gildot
+#http://gildot.org/gildot.rdf
+#http://gildot.org
+#Gildot
+#pt
+#
+#
+%
+/Tecnologia/Linux in Brazil
+#http://brlinux.linuxsecurity.com.br/noticias/index.rdf
+#http://www.br-linux.org
+#Linux in Brazil
+#pt
+#
+#
+%
+/Tecnologia/MAGNET_-_Hotbits
+#http://www.magnet.com.br/bits/recentes.rdf
+#http://www.hotbits.com.br/
+#Hotbits
+#pt
+#
+#
+%
+/Tecnologia/CIPSGA
+#http://www.cipsga.org.br/backend.php
+#http://www.cipsga.org.br
+#CIPSGA
+#pt
+#
+#
+%
+/Tecnologia/Nonio
+#http://www.explicacoes.com/php_nuke/html/backend.php
+#http://www.nonio.com
+#nonio.com
+#pt
+#
+#
+%
+/Tecnologia/Web Insider
+#webinsider.xml
+#http://www.webinsider.com.br
+#Web Insider
+#pt
+#
+#
+%
+/Entretenimento/Usina do Som
+#usinadosom.xml
+#http://www.usinadosom.com.br/default.asp
+#Usina do Som
+#pt
+#
+#
+%
+/Entretenimento/CliqueMusic
+#cliquemusic.xml
+#http://cliquemusic.uol.com.br/br/Cybernotas/Cybernotas.asp
+#CliqueMusic
+#pt
+#
+#
+%
+/Midia/Blue Bus
+#bluebus.xml
+#http://www.bluebus.com.br/capa.shtml
+#Blue Bus
+#pt
+#
+#
+%
+/Midia/Jornalistas da Web
+#http://www.jornalistasdaweb.com.br/rss.asp
+#http://www.jornalistasdaweb.com.br
+#Jornalistas da Web
+#pt
+#
+#
+%
+/Midia/Vox News
+#voxnews.xml
+#http://www.voxnews.com.br/
+#Vox News
+#pt
+#
+#
+%
+/Politica/Hora do Povo
+#horadopovo.xml
+#http://www.horadopovo.com.br
+#Hora do Povo
+#pt
+#
+#
+%
+//Ultimo Segundo
+#ultimosegundo.xml
+#http://www.ig.com.br/useg/usflash/0,,,00.html
+#iG - Último Segundo
+#pt
+#
+#
+%
+//JB Online
+#jb.xml
+#http://jbonline.terra.com.br/extra/extra1.html
+#JB Online
+#pt
+#
+#
+%
+//Idearo
+#http://www.idearo.com.br/backend.php 
+#http://www.idearo.com.br
+#Idearo
+#pt
+#
+#
+%
+/Blogs/Concatenum.com
+#http://www.concatenum.com/rss/weblog.xml
+#http://www.concatenum.com/
+#Tecnologia, Internet e conversa fiada.
+#pt
+#
+#
+%
+/Blogs/InterNey.Net®
+#http://www.interney.net/rss.php
+#http://www.interney.net/
+#InterNey.Net 
+#pt
+#
+#
+%
+/Blogs/Passando Mal.com
+#http://passandomal.com/blog.rss
+#http://passandomal.com
+#Passando Mal.com
+#pt
+#
+#
+%
+/Blogs/Milrumos
+#http://www.milrumos.com.br/weblogger/rss/rssit.asp
+#http://www.milrumos.com.br
+#Mil Rumos
+#pt
+#
+#
+%
+/Blogs/var_dump blog
+#http://www.vardump.com/b2rss.php
+#http://www.vardump.com
+#var_dump
+#pt
+#
+#
+%
+/Blogs/CrisDias WebLog
+#http://www.crisdias.com/weblog/rss.php
+#http://www.crisdias.com/weblog/
+#CrisDias Weblog
+#pt
+#
+#
+%
+/Blogs/o cc do caiocesar na www
+#http://www.caiocesar.cc/rss.php
+#http://www.caiocesar.cc
+#o cc do caiocesar na www
+#pt
+#
+#
+%
+/Blogs/Charles? Que Charles?
+#http://charles.pilger.com.br/rss.php 
+#http://charles.pilger.com.br
+#Charles? Que Charles?
+#pt
+#
+#
+%
+/Blogs/rafainc
+#http://www.rafainc.com/b2/b2rss.php
+#http://rafainc.com/b2.php
+#rafainc
+#pt
+#
+#
+%
+/Blogs/Kuja's Electronic Samizdat
+#http://samizdat.manilasites.com/xml/rss.xml
+#http://samizdat.ManilaSites.Com/
+#Kuja's Electronic Samizdat
+#pt
+#
+#
+%
+/Blogs/Furmiga Weblog
+#http://www.furmiga.levillage.org/b2/b2rss.xml
+#http://www.furmiga.levillage.org/b2/index.php
+#Furmiga Weblog
+#pt
+#
+#
+%
+/Blogs/todosnoz
+#http://www.todosnoz.com.br/b2/b2rss.xml
+#http://www.todosnoz.com.br
+#todosnoz
+#pt
+#
+#
+%
+//Campo Grande News
+#campogrande.xml
+#http://www.campogrande.com/index.htm
+#Campo Grande News
+#pt
+#
+#
+%
+/Tecnologia/UnderLinux
+#http://www.underlinux.com.br/backend.php
+#http://www.underlinux.com.br
+#Under Linux
+#pt
+#
+#
+%
+/Tecnologia/Portal Java
+#http://www.portaljava.com.br/home/backend-rdf10.php
+#http://www.portaljava.com.br
+#Portal Java
+#pt
+#
+#
+%
+/Tecnologia/Projeto Metáfora
+#http://drupal.projetometafora.org/module.php?mod=node&op=feed
+#http://www.projetometafora.org
+#Projeto Metáfora
+#pt
+#
+#
+/Tecnologia/Quilombo Digital
+#http://www.quilombodigital.org:8668/exec/rss
+#http://www.quilombodigital.org
+#Quilombo Digital
+#pt
+#
+#
+%
+/Tecnologia/Plantão Info
+#plantaoinfo.xml
+#http://www2.uol.com.br/info/aberto/infonews/index.shl
+#Plantão Info
+#pt
+#
+#
+%
+/Blogs/HoloCoCos @ TNT
+#http://www.voidstar.com/rssify.php?url=http://www.comp.ufscar.br/~hcintra/blog/index.php
+#http://www.comp.ufscar.br/~hcintra/blog/index.php
+#HoloCoCos @ TNT v2.
+#pt
+#
+#
+%
+/Blogs/Paiol
+#http://www.voidstar.com/rssify.php??url=http://www.lyma.hpg.ig.com.br/blogger/blogger.html 
+#http://www.lyma.hpg.ig.com.br/blogger/blogger.html
+#Paiol
+#pt
+#
+#
+%
+/Blogs/Gardenal
+#http://www.gardenal.vardump.com/b2rss.php
+#http://www.gardenal.vardump.com
+#Gardenal
+#pt
+#
+#
+%
+/Juridico/Tribunal Superior do Trabalho
+#http://ext01.tst.gov.br/pls/ext01/no_noticias.rss?p_cod_area_noticia=ASCS
+#http://www.tst.gov.br/noticias
+#Tribunal Superior do Trabalho
+#pt
+#
+#
+%
+/Blogs/Charlab
+#http://www.voidstar.com/rssify.php?url=http://www.charlab.blogger.com.br
+#http://www.charlab.blogger.com.br
+#Charlab
+#pt
+#
+#
+%
+/Educação/Escola Adventista de Telêmaco Borba - PR
+#http://www.eatb.com.br/backend.php
+#http://www.eatb.com.br
+#Escola Adventista de Telêmaco Borba
+#pt
+#
+#
+%
+/Tecnologia/IDG Now
+#idg.xml
+#http://www.idgnow.com.br
+#IDG Now
+#pt
+#
+#
+%
+/Educação/Resgate Treinamentos
+#http://www.resgate.org/backend.php
+#http://www.resgate.org
+#Resgate Treinamentos
+#pt
+#
+#
+%
+/Tecnologia/PHP-Nuke Brasil
+#http://www.phpnuke.com.br/backend.php
+#http://www.phpnuke.com.br
+#PHP-Nuke brasil
+#pt
+#
+#
+%
+/Tecnologia/LinuxDicas
+#http://www.linuxdicas.com.br/backend.php
+#http://www.linuxdicas.com.br
+#LinuxDicas
+#pt
+#
+#
+%
+//Relatório Alfa
+#http://www.relatorioalfa.com.br/backend.php
+#http://www.relatorioalfa.com.br
+#Relatório Alfa
+#pt
+#
+#
+%
+//Ueba!
+#http://www.ueba.com.br/backend.php
+#http://www.ueba.com.br
+#Ueba!
+#pt
+#
+#
+%
+/Tecnologia/Notícias RNP
+#http://www.rnp.br/noticias/rss.xml
+#http://www.rnp.br/noticias
+#Notícias RNP
+#pt
+#
+#
+%
+/Tecnologia/RNP na mídia
+#http://www.rnp.br/noticias/imprensa/rss.xml
+#http://www.rnp.br/noticias/imprensa/
+#RNP na mídia
+#pt
+#
+#
+%

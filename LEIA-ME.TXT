@@ -1,0 +1,14 @@
+Projeto RSSficado
+
+O Projeto RSSficado é um projeto de divulgação sobre o formato RSS, além 
+da criação de conversores HTML para RSS. Todo o código-fonte utilizado no 
+projeto está sob a licença LGPL ( http://www.fsf.org/licenses/lgpl.txt ),
+podendo assim ser livremente usado por qualquer pessoa interessada.
+
+Após descompactar o arquivo, se você usa um sistema Unix-like (linux, 
+freebsd, solaris, etc) lembre-se de dar direitos de gravação (geralmente
+777) para o diretório cache. 
+
+[]'s
+
+Charles Pilger - charles@pilger.com.br 

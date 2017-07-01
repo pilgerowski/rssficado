@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE rss PUBLIC "-//Projeto RSSficado//DTD RSS 0.91//EN" "http://rssficado.pilger.inf.br/rss-0.91.dtd">
+
+<rss version="0.91">
+<channel>
+   <title>%%TITLE%%</title>
+   <link>%%LINK%%</link>
+   <description>%%DESCRIPTION%%</description>
+   <publisher>%%PUBLISHER%%</publisher>
+   <language>pt-br</language>
+
+%%ITENS%% 
+   
+</channel>
+</rss>
+   

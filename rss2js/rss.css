@@ -1,0 +1,44 @@
+/* begin styles for RSS Feed */
+
+.rss_box {
+	 margin: 10px 15%;
+	 padding: 4px 8px;
+	 background-color: #ededed;
+	 border: 2px dashed #7485CA;
+}
+
+.rss_title, rss_title a {
+	font-family: "American Typewriter", "Trebuchet MS", Trebuchet, Lucida, sans-serif;
+	font-size: 120%;
+	font-weight:bold;
+	margin: 5px 0;
+	padding: 0;
+	letter-spacing: 1px;
+}
+
+.rss_items {
+  list-style-image : url(http://rss.phpnuke.org.br/rss2js/gear.gif);
+}
+
+.rss_item  {
+  font-family: verdana, arial, sans-serif;
+  font-size: 90%;
+  font-weight : bold; 
+  margin: 8px 0;
+}
+
+.rss_item a:link, .rss_item a:visited {
+	text-decoration : none;
+	color: #88b;
+	}
+
+.rss_item a:hover { 
+	text-decoration : underline;
+	color: #e0861e;
+	}
+	
+.rss_date {
+	font-size: 80%;
+	font-weight : normal;
+	color: #F60;
+	}
