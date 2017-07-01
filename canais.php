@@ -1,10 +1,11 @@
-<?
+<?php
 // ** Inicio da rotina principal
 
   require_once("util.inc.php");
 
-  $diretorio = ereg_replace("canais.*","",$_SERVER["PHP_SELF"]);
-  $diretorio = ereg_replace("\/$", '', $diretorio);
+  $diretorio = preg_replace("/canais.*/","",$_SERVER["PHP_SELF"]);
+  $diretorio = preg_replace("/\/$/", '', $diretorio);
+
   if($diretorio == '/') $diretorio = '';
 
   $itemTime = date("Y-m-d").'T00:00';
@@ -14,8 +15,7 @@
   $thisScript = "$url/index.php";
   $xmlScript  = "$url/xml.php?";
   $xmlScript  = str_replace('//xml.php?', '/xml.php?', $xmlScript);
-      
-  list($language, $mode) = split("\.", $_SERVER["QUERY_STRING"]);
+  list($language, $mode) = explode('.', $_SERVER['QUERY_STRING']);
   switch($mode) {
     case 'rdf' : $format = rdf();
                  $accent = 0;
@@ -36,14 +36,15 @@
 
   $data = file2array("./canais.txt");
   while(list($keyitem, $aux) = each($data)){
+var_dump($keyitem, $aux); die();
     $item['title'] = $keyitem;
     while(list($keyvalue,$value) = each($aux)) {
       if($accent) $value = noaccent($value);
       $item[$keyvalue] = noaccent($value);
     }
-    if(!ereg('http:', $item['linkxml'])) { 
-      $item['linkxml'] = $xmlScript.$item['linkxml'];
-    }
+//    if(!ereg('http:', $item['linkxml'])) { 
+//      $item['linkxml'] = $xmlScript.$item['linkxml'];
+//    }
     if($mode == 'html') {
       $item['title'] = str_replace('//', '',    $item['title']);
       $item['title'] = str_replace('/',  ' » ', $item['title']);
@@ -118,9 +119,9 @@ function html() {
 
 function file2array($file) {
   $source = read_file($file);
-  $items = split("%", $source);
+  $items = explode("%", $source);
   $numitems = count($items) - 1;
-  $keys = split("#", array_shift($items));
+  $keys = explode("#", array_shift($items));
   $numvalues = count($keys) - 1;
   for($i = 0; $i <= $numvalues; $i++) {
     $keys[$i] = trim($keys[$i]);
@@ -131,7 +132,7 @@ function file2array($file) {
   for($i = 0; $i <= $numitems; $i++) {
     $line = trim($items[$i]);
     if($line != "") {
-      $values = split("#", $items[$i]);
+      $values = explode("#", $items[$i]);
       for($j = 1; $j <= $numvalues; $j++) {
         $key = trim($values[0]);
         $output[$key][$keys[$j]] = trim($values[$j]);
@@ -139,6 +140,7 @@ function file2array($file) {
       }
     }        
   }
+
   return $output;
 }
 ?>

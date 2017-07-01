@@ -1,4 +1,4 @@
-<?
+<?php
   
   $arquivo = ereg_replace('/|.php', '', $_SERVER["QUERY_STRING"]);
   $arquivo_nome = './'.$arquivo.'.php';

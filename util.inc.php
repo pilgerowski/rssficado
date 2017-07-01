@@ -1,4 +1,4 @@
-<?
+<?php
 function clearspaces($string) {
   $string = str_replace("\r", "\n", $string);
   $string = str_replace("\t", " ", $string);
