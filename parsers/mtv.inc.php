@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "MTV Brasil";
   $xml['link']        = "http://www.mtv.com.br/clube/drops/";
   $xml['description'] = "MTV Brasil";
@@ -23,4 +23,4 @@
     $description = "<a href='$link'>$title</a>";
     $xml['item'] .= item_xml($title, $link, $description);
   }
-?>
+

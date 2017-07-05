@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Jornalistas da Web";
   $xml['link']        = "http://www.jornalistasdaweb.com.br/jw_miolo.asp";
   $xml['description'] = "Jornalistas da Web";
@@ -30,4 +30,4 @@
     $xml['item'] .= item_xml($title, $link, $description);
   }  
 
-?>
+

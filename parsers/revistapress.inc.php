@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Revista Press";
   $xml['link']        = "http://www.revistapress.com.br/rapidinhas/capa.asp";
   $xml['description'] = "Revista Press";
@@ -27,4 +27,4 @@ esta nota</a>';
     $description = singleline($description);
     $xml['item'] .= item_xml($title, $link, $description);
   }
-?>
+

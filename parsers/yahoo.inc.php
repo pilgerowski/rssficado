@@ -1,4 +1,4 @@
-<?
+<?php
 $baseurl = "http://br.news.yahoo.com/";
 $counter = 0;
 
@@ -272,4 +272,4 @@ $counter = 0;
     }
   }
 
-?>
+

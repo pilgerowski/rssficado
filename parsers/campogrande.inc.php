@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Campo Grande News";
   $xml['link']        = "http://www.campograndenews.com/index.htm";
   $xml['description'] = "Campo Grande News";
@@ -32,4 +32,4 @@
     $description = "<a href='$link'>$item</a>";
     $xml['item'] .= item_xml($title, $link, $description);
   }
-?>
+

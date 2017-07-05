@@ -1,4 +1,4 @@
-<?
+<?php
 if (!$url) 
 {
 	$url='jpop';
@@ -48,4 +48,4 @@ for ($i=0; $i< $match_count; $i++)
 	$xml['item'] .= item_xml($title, $item_url,$desc);
 }
 
-?>
+

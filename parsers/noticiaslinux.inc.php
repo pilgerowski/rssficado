@@ -1,5 +1,4 @@
-<?
-
+<?php
   $xml['link']        = "http://www.noticiaslinux.com.br/";
   $xml['title']       = "Noticias Linux";
   $xml['description'] = "Noticias Linux";
@@ -33,4 +32,4 @@
     $xml['item'] .= item_xml($title, $url, $description);
   }
 
-?>
+

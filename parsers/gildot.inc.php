@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Gildot";
   $xml['link']        = "http://gildot.org/";
   $xml['description'] = "O Gildot é uma iniciativa do Grupo de Investigação de Linux da Universidade do Minho. O seu objectivo principal é constituir um ponto de encontro onde a comunidade Linux possa trocar ideias e opiniões, para além de ficar a par das últimas novidades relacionadas com este Sistema Operativo.";
@@ -22,4 +22,4 @@
     $link = $xml['link'].$link;
     $xml['item'] .= item_xml(strip_tags($title), $link, $description); 
   }
-?>
+

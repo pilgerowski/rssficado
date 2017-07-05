@@ -35,4 +35,3 @@ for ($i = 1; $i < (count($contents) - 1); $i++) {
 		}
 	}
 }
-?>

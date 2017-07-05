@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Aprendiz";
   $xml['link']        = "http://www.uol.com.br/aprendiz/guiadeempregos/terceiro/noticias/";
   $xml['description'] = "Aprendiz - Notícias do Terceiro Setor";
@@ -16,4 +16,4 @@
     $description = "<a href=$link>$title</a>";
     $xml['item'] .= item_xml($title, $link, $description);
   }
-?>
+

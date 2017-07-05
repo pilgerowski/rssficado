@@ -1,5 +1,4 @@
-
-<?
+<?php
   $xml['title']       = "Digito";
   $xml['link']        = "http://www.digito.pt/";
   $xml['description'] = "A DIGITO é o maior site informativo em Portugal dedicado à tecnologia e informática em geral. Conta com aproximadamente 30.000 assinantes da sua newsletter semanal e uma média de 900.000 visualizações de páginas por mês. ";
@@ -25,4 +24,4 @@
     $link = str_replace('<a href="','', $url);
     $xml['item'] .= item_xml($title, $link, $description); 
   }
-?>
+

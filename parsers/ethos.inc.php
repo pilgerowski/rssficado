@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Ethos";
   $xml['link']        = "http://www.ethos.org.br/notas/applet.txt";
   $xml['description'] = "Intituto Ethos de Responsabilidade Social";
@@ -23,4 +23,4 @@
       $xml['item'] .= item_xml($title, $link, $description);
     }
   } 
-?>
+

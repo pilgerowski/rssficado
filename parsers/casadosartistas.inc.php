@@ -1,4 +1,4 @@
-<?
+<?php
 $xml['link']        = "http://casa.uol.com.br/noticias";
 $xml['title']       = " UOL - Casa dos Artistas ";
 $xml['description'] = "http://casa.uol.com.br/noticias";
@@ -34,4 +34,4 @@ for ($i=0; $i< $match_count; $i++) {
 	$xml['item'] .= item_xml($title, $link, $description);
 }
 
-?>
+

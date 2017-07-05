@@ -6,6 +6,14 @@ title
 #creator
 #date
 %
+//Agencia Estado
+#agestado.xml
+#http://www.estadao.com.br/agestado/
+#AgÃªncia Estado
+#pt
+#
+#
+%
 /Tecnologia/MyFreeBSD
 #http://www.myfreebsd.com.br/backend.php
 #http://www.myfreebsd.com.br
@@ -22,26 +30,26 @@ title
 #
 #
 %
-//Terra Notícias
+//Terra NotÃ­cias
 #terra-noticias.xml
 #http://www.terra.com.br/noticias/ultimas.htm
-#Terra Notícias
+#Terra NotÃ­cias
 #pt
 #
 #
 %
-/Tecnologia/Itaú Cultural - Cibercultura
+/Tecnologia/ItaÃº Cultural - Cibercultura
 #http://www.itaucultural.org.br/index.cfm?cd_pagina=2158
 #http://www.itaucultural.org.br/
-#Notícias - Cibercultura 
+#NotÃ­cias - Cibercultura 
 #pt
-#Instituto Itaú cultural - Itaulab
+#Instituto ItaÃº cultural - Itaulab
 #
 %
 /Entretenimento/Drops MTV Brasil
 #http://www2.mtv.com.br/drops/rssify.php
 #http://www2.mtv.com.br/drops/
-#tudo sobre o mundo da música
+#tudo sobre o mundo da mÃºsica
 #pt
 #MTV Brasil
 #
@@ -86,18 +94,18 @@ title
 #
 #
 %
-/Tecnologia/Notícias Linux
+/Tecnologia/NotÃ­cias Linux
 #http://www.noticiaslinux.com.br/rss.php
 #http://www.noticiaslinux.com.br
-#Notícias Linux
+#NotÃ­cias Linux
 #pt
 #
 #
 %
-/Blogs/Cabeça
+/Blogs/CabeÃ§a
 #http://www.bonks.com.br/b2/b2rss.php
 #http://www.bonks.com.br/b2/
-#Cabeça
+#CabeÃ§a
 #pt
 #
 #
@@ -166,10 +174,10 @@ title
 #
 #
 %
-/Blogs/Marcelo Cabral :: Diário de Bordo
+/Blogs/Marcelo Cabral :: DiÃ¡rio de Bordo
 #http://wbloggar.com/marcelo/blog/index.rdf
 #http://wbloggar.com/marcelo/blog/
-#Diário de Bordo, de Marcelo Cabral
+#DiÃ¡rio de Bordo, de Marcelo Cabral
 #pt
 #
 #
@@ -185,7 +193,7 @@ title
 /Software/w.bloggar
 #http://wbloggar.com/xml-rss.php?blogid=3
 #http://wbloggar.com/brasil/
-#Últimas informações sobre o w.bloggar, interface para publicação em blogs
+#Ãšltimas informaÃ§Ãµes sobre o w.bloggar, interface para publicaÃ§Ã£o em blogs
 #pt
 #
 #
@@ -326,18 +334,10 @@ title
 #
 #
 %
-//Centro de Mídia Independente
+//Centro de MÃ­dia Independente
 #cmi.xml
 #http://www.midiaindependente.org/front.php3
-#Centro de Mídia Independente
-#pt
-#
-#
-%
-//Agência Estado
-#agestado.xml
-#http://www.estadao.com.br/agestado/
-#Agência Estado
+#Centro de MÃ­dia Independente
 #pt
 #
 #
@@ -358,10 +358,10 @@ title
 #
 #
 %
-/Tecnologia/OLinux Notícias
+/Tecnologia/OLinux NotÃ­cias
 #olinux.xml
 #http://www.olinux.com.br/news/
-#OLinux Notícias
+#OLinux NotÃ­cias
 #pt
 #
 #
@@ -465,7 +465,7 @@ title
 //Ultimo Segundo
 #ultimosegundo.xml
 #http://www.ig.com.br/useg/usflash/0,,,00.html
-#iG - Último Segundo
+#iG - Ãšltimo Segundo
 #pt
 #
 #
@@ -494,7 +494,7 @@ title
 #
 #
 %
-/Blogs/InterNey.Net®
+/Blogs/InterNey.NetÂ®
 #http://www.interney.net/rss.php
 #http://www.interney.net/
 #InterNey.Net 
@@ -606,10 +606,10 @@ title
 #
 #
 %
-/Tecnologia/Projeto Metáfora
+/Tecnologia/Projeto MetÃ¡fora
 #http://drupal.projetometafora.org/module.php?mod=node&op=feed
 #http://www.projetometafora.org
-#Projeto Metáfora
+#Projeto MetÃ¡fora
 #pt
 #
 #
@@ -621,10 +621,10 @@ title
 #
 #
 %
-/Tecnologia/Plantão Info
+/Tecnologia/PlantÃ£o Info
 #plantaoinfo.xml
 #http://www2.uol.com.br/info/aberto/infonews/index.shl
-#Plantão Info
+#PlantÃ£o Info
 #pt
 #
 #
@@ -669,10 +669,10 @@ title
 #
 #
 %
-/Educação/Escola Adventista de Telêmaco Borba - PR
+/EducaÃ§Ã£o/Escola Adventista de TelÃªmaco Borba - PR
 #http://www.eatb.com.br/backend.php
 #http://www.eatb.com.br
-#Escola Adventista de Telêmaco Borba
+#Escola Adventista de TelÃªmaco Borba
 #pt
 #
 #
@@ -685,7 +685,7 @@ title
 #
 #
 %
-/Educação/Resgate Treinamentos
+/EducaÃ§Ã£o/Resgate Treinamentos
 #http://www.resgate.org/backend.php
 #http://www.resgate.org
 #Resgate Treinamentos
@@ -709,10 +709,10 @@ title
 #
 #
 %
-//Relatório Alfa
+//RelatÃ³rio Alfa
 #http://www.relatorioalfa.com.br/backend.php
 #http://www.relatorioalfa.com.br
-#Relatório Alfa
+#RelatÃ³rio Alfa
 #pt
 #
 #
@@ -725,18 +725,18 @@ title
 #
 #
 %
-/Tecnologia/Notícias RNP
+/Tecnologia/NotÃ­cias RNP
 #http://www.rnp.br/noticias/rss.xml
 #http://www.rnp.br/noticias
-#Notícias RNP
+#NotÃ­cias RNP
 #pt
 #
 #
 %
-/Tecnologia/RNP na mídia
+/Tecnologia/RNP na mÃ­dia
 #http://www.rnp.br/noticias/imprensa/rss.xml
 #http://www.rnp.br/noticias/imprensa/
-#RNP na mídia
+#RNP na mÃ­dia
 #pt
 #
 #

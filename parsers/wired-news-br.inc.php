@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Wired News Br";
   $xml['link']        = "http://br.wired.com";
   $xml['description'] = "Wired News Brasil";
@@ -30,4 +30,4 @@
     $xml['item'] .= item_xml($title, $link, $description);
   }
 
-?>
+

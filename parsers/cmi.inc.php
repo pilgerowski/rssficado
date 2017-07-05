@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Centro de Mídia Independente";
   $xml['link']        = "http://www.midiaindependente.org";
   $xml['description'] = "O CMI-Brasil é um centro de mídia independente que busca oferecer informação para a construção de uma sociedade livre, igualitária e que respeite o meio ambiente. ";
@@ -28,4 +28,4 @@
     $xml['item'] .= item_xml($title, $link, $description); 
   }  
 
-?>
+

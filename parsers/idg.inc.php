@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "IDG Now! Br";
   $xml['link']        = "http://idgnow.terra.com.br/idgnow/todas.html";
   $xml['description'] = "IDG Now! Brasil";
@@ -25,4 +25,4 @@
       $xml['item'] .= item_xml($title, $link, $description);
     }  
   }
-?>
+

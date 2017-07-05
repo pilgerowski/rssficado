@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Bloomberg";
   $xml['link']        = "http://www.bloomberg.com/br/bus_news.html";
   $xml['description'] = "Bloomberg NewsBR";
@@ -21,4 +21,4 @@
     $link = trim(str_replace('">Mais...</A>', '', $link));
     $xml['item'] .= item_xml($title, $link, $description); 
   }
-?>
+

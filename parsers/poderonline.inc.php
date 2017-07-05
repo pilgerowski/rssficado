@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "PoderOnline";
   $xml['link']        = "http://www.poderonline.com.br/punto/por/default.htm";
   $xml['description'] = "Revista Poder Online";
@@ -42,4 +42,4 @@
     $xml['item'] .= item_xml($title, $link, $description);
   }  
   
-?>
+

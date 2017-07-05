@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Google News";
   $xml['link']        = "http://news.google.com/";
   $xml['description'] = "Google News Search";
@@ -24,4 +24,4 @@
     $description = $noticias[$i];
     $xml['item'] .= item_xml($title, $link, $description); 
   } 
-?>
+

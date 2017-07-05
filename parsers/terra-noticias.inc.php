@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Terra - Notícias";
   $xml['link']        = "http://www.terra.com.br/noticias/ultimas.htm";
   $xml['description'] = "Terra - Notícias";
@@ -26,4 +26,4 @@
     $description = strip_tags($hour).' '.$title;
     $xml['item'] .= item_xml($title, $url, $description);
   }  
-?>
+

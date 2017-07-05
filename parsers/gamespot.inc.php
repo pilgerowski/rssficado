@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Gamespot PC News";
   $xml['link']        = "http://gamespot.com/gamespot/filters/news/0,10849,6011011,00.html";
   $xml['description'] = "Gamespot PC News";
@@ -39,4 +39,4 @@
     $xml['item'] .= item_xml($title, $item_url, $desc);
   }
 
-?> 
+

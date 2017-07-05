@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Expresso da Notícia";
   $xml['link']        = "http://www.expressodanoticia.com.br/main.asp";
   $xml['description'] = "Expresso da Notícia";
@@ -22,4 +22,4 @@
       $xml['item'] .= item_xml($title, $link, $description);
     } 
   }
-?>
+

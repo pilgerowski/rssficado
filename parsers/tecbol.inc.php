@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Tecbol";
   $xml['link']        = "http://bol.com.br/noticias/tecbol/leia_mais.html";
   $xml['description'] = "Tecbol";
@@ -32,4 +32,4 @@
       }  
     }  
   }
-?>
+

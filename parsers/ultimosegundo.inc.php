@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Ultimo Segundo";
   $xml['link']        = "http://www.ig.com.br/useg/usflash/0,,,00.html";
   $xml['description'] = "iG - Último Segundo";
@@ -26,4 +26,4 @@
     $xml['item'] .= item_xml($title, $link, $description); 
   }
   
-?>
+

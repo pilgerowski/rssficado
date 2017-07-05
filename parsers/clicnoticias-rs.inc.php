@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "ClicNoticias RS";
   $xml['link']        = "http://www.clicrbs.com.br/clicnoticias"; 
   $xml['description'] = "ClicNoticias - Rio Grande do Sul";
@@ -24,4 +24,4 @@
     $xml['item'] .= item_xml($title, $link, $description); 
   }
 
-?>
+

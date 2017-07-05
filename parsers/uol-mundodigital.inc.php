@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "UOL Mundo Digital";
   $xml['link']        = "http://noticias.uol.com.br/mundodigital/ultimas/";
   $xml['description'] = "UOL Mundo Digital";
@@ -25,4 +25,4 @@
     $xml['item'] .= item_xml($title, $link, $description);
   }  
   
-?>
+

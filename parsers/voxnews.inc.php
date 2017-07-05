@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Vox News";
   $xml['link']        = "http://www.voxnews.com.br/";
   $xml['description'] = "Vox News";
@@ -23,4 +23,4 @@
     $xml['item'] .= item_xml($title, $link, $description); 
   }
 
-?>
+

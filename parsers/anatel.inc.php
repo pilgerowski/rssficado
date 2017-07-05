@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Anatel";
   $xml['link']        = "http://www.anatel.gov.br/home/noticias.asp";
   $xml['description'] = "Anatel - Agência Nacional de Telecomunicações";
@@ -31,4 +31,4 @@
     $link  = str_replace('index.asp?link=/', '', $link); 
     $xml['item'] .= item_xml($title, $link, $description); 
   } 
-?>
+

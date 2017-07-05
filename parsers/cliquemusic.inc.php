@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "CliqueMusic";
   $xml['link']        = "http://cliquemusic.uol.com.br/br/Cybernotas/Cybernotas.asp";
   $xml['description'] = "CliqueMusic";
@@ -18,4 +18,4 @@
     $description = "<a href='$link'>$title</a>";
     $xml['item'] .= item_xml($title, $link, $description);
   }
-?>
+

@@ -18,11 +18,11 @@
   list($language, $mode) = explode('.', $_SERVER['QUERY_STRING']);
   switch($mode) {
     case 'rdf' : $format = rdf();
-                 $accent = 0;
+                 $accent = TRUE;
                  break;
     default    : $mode = 'html';
                  $format = html();
-                 $accent = 1;
+                 $accent = FALSE;
   }
   $file['title']   = 'Projeto RSSficado - Lista de Canais';
   $file['creator'] = 'Charles Pilger (mailto:charles@pilger.inf.br)';
@@ -36,15 +36,11 @@
 
   $data = file2array("./canais.txt");
   while(list($keyitem, $aux) = each($data)){
-var_dump($keyitem, $aux); die();
     $item['title'] = $keyitem;
     while(list($keyvalue,$value) = each($aux)) {
       if($accent) $value = noaccent($value);
       $item[$keyvalue] = noaccent($value);
     }
-//    if(!ereg('http:', $item['linkxml'])) { 
-//      $item['linkxml'] = $xmlScript.$item['linkxml'];
-//    }
     if($mode == 'html') {
       $item['title'] = str_replace('//', '',    $item['title']);
       $item['title'] = str_replace('/',  ' » ', $item['title']);
@@ -110,37 +106,34 @@ function rdf() {
 }
 
 function html() {
-  $output['content'] = 'text/html';
-  $output['header']  = "<ul>\n";
-  $output['item']    = "<li><a href='%%ITEMLINKXML%%'>%%ITEMTITLE%%</a></li>\n";
-  $output['footer']  = "</ul>\n";
-  return $output;
+	$output['content'] = 'text/html';
+	$output['header']  = "<ul>\n";
+	$output['item']    = "<li><a href='%%ITEMLINKXML%%'>%%ITEMTITLE%%</a></li>\n";
+	$output['footer']  = "</ul>\n";
+	return $output;
 }    
 
 function file2array($file) {
-  $source = read_file($file);
-  $items = explode("%", $source);
-  $numitems = count($items) - 1;
-  $keys = explode("#", array_shift($items));
-  $numvalues = count($keys) - 1;
-  for($i = 0; $i <= $numvalues; $i++) {
-    $keys[$i] = trim($keys[$i]);
-    // echo '['.$i.']['.$keys[$i]."]<br>\n";
-  }
-  sort($items);
-  reset($items);
-  for($i = 0; $i <= $numitems; $i++) {
-    $line = trim($items[$i]);
-    if($line != "") {
-      $values = explode("#", $items[$i]);
-      for($j = 1; $j <= $numvalues; $j++) {
-        $key = trim($values[0]);
-        $output[$key][$keys[$j]] = trim($values[$j]);
-        // echo '['.$key.']['.$keys[$j].']['.$output[$key][$keys[$j]]."]<br>\n";
-      }
-    }        
-  }
+	$source = read_file($file);
+	$items = explode("%", $source);
+	$numitems = count($items) - 1;
+	$keys = explode("#", array_shift($items));
+	$numvalues = count($keys) - 1;
+	for($i = 0; $i <= $numvalues; $i++) {
+		$keys[$i] = trim($keys[$i]);
+	}
+	sort($items);
+	reset($items);
+	for($i = 0; $i <= $numitems; $i++) {
+		$line = trim($items[$i]);
+		if($line != "") {
+			$values = explode("#", $items[$i]);
+			for($j = 1; $j <= $numvalues; $j++) {
+				$key = trim($values[0]);
+				$output[$key][$keys[$j]] = trim($values[$j]);
+			}
+		}        
+	}
 
-  return $output;
+	return $output;
 }
-?>

@@ -1,3 +1,4 @@
+<?php include("../util.inc.php"); ?>
 <html>
 <head>
 <title>Parsers do Projeto RSSficado</title>
@@ -6,16 +7,17 @@
 <h2>Parsers do Projeto RSSficado</h2>
 <hr>
 <ul>
-<?
-  $diretorio = `ls *.inc`;
-  $arquivos = split("\n", $diretorio);
-  asort($arquivos);
-  reset($arquivos);
-  while(list($i,$k) = each($arquivos)) {
-    if(!empty($k)) {
-      echo "<li><a href='$k'>$k</a></li>\n";
-    }  
-  }
+<?php
+	$diretorio = './';
+	$arquivos = array_diff(scandir($diretorio), array('..', '.'));
+	asort($arquivos);
+	reset($arquivos);
+	while(list($i,$k) = each($arquivos)) {
+		if(!empty($k)) {
+			if(contem($k, ".inc"))
+				echo "<li><a href='$k'>$k</a></li>\n";
+		}  
+  	}
 ?>
 </ul>
 </body>

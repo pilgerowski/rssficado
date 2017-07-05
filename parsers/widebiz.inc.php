@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "WideBIZ";
   $xml['link']        = "http://www.widebiz.com.br";
   $xml['description'] = "widebiz - relacionamentos e negócios";
@@ -36,4 +36,4 @@
       }    
     }  
   } 
-?>
+

@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "OLinux Notícias";
   $xml['link']        = "http://www.olinux.com.br/news/";
   $xml['description'] = "OLinux Notícias";
@@ -26,4 +26,4 @@
     $xml['item'] .= item_xml($title, $link, $description); 
   }
   
-?>
+

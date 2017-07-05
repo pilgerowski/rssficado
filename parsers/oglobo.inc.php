@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "O Globo - Plantão de Noticias";
   $xml['link']        = "http://oglobo.globo.com/plantao/";
   $xml['description'] = "O Globo - Plantão";
@@ -32,4 +32,4 @@
     $xml['item'] .= item_xml($title, $linkNoticia, $description);
   }
 
-?>
+

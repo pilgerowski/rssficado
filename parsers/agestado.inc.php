@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Agencia Estado";
   $xml['link']        = "http://www11.estadao.com.br/agestado/";
   $xml['description'] = "Ultimas Noticias - Estadao.com.br";
@@ -42,4 +42,3 @@
 
   }
 
-?>

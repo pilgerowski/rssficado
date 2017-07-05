@@ -1,5 +1,4 @@
-<?
-
+<?php
   $xml['link']        = "http://www.valoreconomico.com.br/valornoticias/";
   $xml['title']       = "Valor Notícias";
   $xml['description'] = "Valor Notícias";
@@ -42,4 +41,4 @@
     $xml['item'] .= item_xml($title,$item_url,$desc);
   }
 
-?>
+

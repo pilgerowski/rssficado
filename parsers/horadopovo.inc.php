@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Hora do Povo";
   $xml['link']        = "http://www.horadopovo.com.br/indice.htm";
   $xml['description'] = "Jornal Hora do Povo";
@@ -20,4 +20,4 @@
     $xml['item'] .= item_xml($title, $link, $description);
   }
 
-?>
+

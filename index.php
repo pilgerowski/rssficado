@@ -25,8 +25,7 @@
 			<a href="<?php echo $local;?>/canais.php?pt.rdf">OCS</a><br />
 			<br />
 			<b>Fontes</b>:<br />
-			<a href="<?php echo $local;?>/source.php?xml.php">xml.php</a><br />
-			<a href="<?php echo $local;?>/util.inc">util.inc</a><br />
+			<a href="https://github.com/pilgerowski/rssficado">Github</a><br />
 			<br />
 			<a href="<?php echo $local;?>/parsers/index.php">Parsers</a><br />
 			<br />

@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Agencia Brasil";
   $xml['link']        = "http://www.agenciabrasil.gov.br/brasilagora.phtml";
   $xml['description'] = "Agencia Brasil";
@@ -24,4 +24,3 @@
     $link = 'http://www.agenciabrasil.gov.br/'.trim($link);
     $xml['item'] .= item_xml($title, $link, $description);
   }
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Rets";
   $xml['link']        = 'http://tamarindo.rits.org.br/notitia/servlet/newstorm.notitia.apresentacao.ServletDeSecao?codigoDaSecao=1';
   $xml['description'] = "Rets - Revista do Terceiro Setor";
@@ -26,4 +26,4 @@
     $description = $item; 
     $xml['item'] .= item_xml($title, $link, $description);
   }
-?>
+

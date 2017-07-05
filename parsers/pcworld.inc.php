@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "PC World";
   $xml['link']        = "http://pcworld.terra.com.br/pcw/pcworld.html";
   $xml['description'] = "PC World";
@@ -22,4 +22,4 @@
     $xml['item'] .= item_xml($title, $link, $description);
   }
 
-?>
+

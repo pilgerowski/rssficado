@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "MacMania";
   $xml['link']        = "http://www.terra.com.br/macmania/index2.htm";
   $xml['description'] = "MacMania";
@@ -17,4 +17,4 @@
     $link = "http://www.terra.com.br".$auxlink2;
     $xml['item'] .= item_xml($title, $link, $description);
   }
-?>
+

@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Usina do Som";
   $xml['link']        = "http://www.usinadosom.com.br/default.asp";
   $xml['description'] = "Usina do Som";
@@ -19,4 +19,4 @@
     $description = "<a href='$link'>$title</a>";
     $xml['item'] .= item_xml($title, $link, $description);
   }
-?>
+

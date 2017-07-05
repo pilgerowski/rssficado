@@ -1,4 +1,4 @@
-<?  
+<?php
 {
   header ("Content-Type: text/xml");  
   include ("blog.header.php"); 
@@ -81,6 +81,4 @@ function item_xml($title, $link, $description) {
   $item = str_replace('%%DESCRIPTION%%', $description, $item);
   return $item; 
 }
-
-?>
 

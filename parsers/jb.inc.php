@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "JB Online - Tempo Real";
   $xml['link']        = "http://jbonline.terra.com.br/extra/extra1.html";
   $xml['description'] = "JB Online - Tempo Real";
@@ -27,4 +27,4 @@
     $xml['item'] .= item_xml($title, $link, $description);
   }
  
-?>
+

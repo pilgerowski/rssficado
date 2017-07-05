@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Web Insider";
   $xml['link']        = "http://webinsider.uol.com.br/xml_out.php";
   $xml['description'] = "Web Insider";
@@ -20,4 +20,4 @@
     }  
   }
  
-?>
+

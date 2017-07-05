@@ -1,4 +1,4 @@
-<?
+<?php
   $xml['title']       = "Blue Bus";
   $xml['link']        = "http://www.bluebus.com.br/capa.shtml";
   $xml['description'] = "Blue Bus";
@@ -20,4 +20,4 @@
       $xml['item'] .= item_xml($title, $link, $description); 
     }  
   }  
-?>
+
